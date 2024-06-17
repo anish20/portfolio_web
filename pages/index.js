@@ -2,7 +2,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
-import styles from "@/styles/Home.module.css";
+import styles from "@/styles/Home.module.scss";
 import { TypeAnimation } from 'react-type-animation';
 import HeroSection from "@/components/Home/HeroSection";
 import TopNavigation from "@/components/TopNavigation/Navigation";

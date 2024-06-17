@@ -1,8 +1,10 @@
+import Login from '@/admin-components/Login/Login'
+
 import React from 'react'
 
 const index = () => {
   return (
-    <div>Admin Panel</div>
+    <Login />
   )
 }
 

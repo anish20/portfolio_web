@@ -1,0 +1,109 @@
+@import "../../../styles/Home.module.scss";
+.Dialog{
+    padding: 0 !important;
+    @include mobile{
+      height: 650px !important;
+      top: 5rem !important;
+    }
+}
+.PopupHeader{
+    border-radius: 0 !important;
+    height: 3.5rem !important;
+    background: var(--primary-color);
+    color: #fff !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem !important;
+    @include mobile{
+      padding: 0 0.5rem !important;
+    }
+}
+
+.PopupHeader h5{
+    margin-bottom: 0 !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+}
+
+.PopupHeader svg{
+    cursor: pointer !important;
+}
+.InsuranceContainer{
+    padding: 20px 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column !important;
+    gap: 7px;
+    @include mobile{
+      padding: 10px 0px !important;
+    }
+.Items {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h5 {
+      color: #4e4e4e;
+      font-family: Montserrat;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 25px; /* 208.333% */
+      text-transform: capitalize;
+      width: 50%;
+    }
+    p {
+      width: 50%;
+      color: #4e4e4e;
+      font-family: Montserrat;
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 25px; /* 208.333% */
+      text-overflow: ellipsis;
+      overflow: hidden;
+      // text-transform: capitalize;
+    }
+  }
+  .BtnCreateBlog{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    // width: 77px;
+    // height: 30px;
+    background: var(--primary-color);
+    box-shadow: 0px 1px 1.6px 0px rgba(0, 0, 0, 0.08) !important;
+    border-radius: 5px !important;
+    // border: 0.4px solid #3CB872 !important;
+    color: #fff;
+    border: none !important;
+    @include mobile{
+      width: 100% !important;
+    }
+    &:hover{
+      border: none !important;
+      color: #fff !important;
+    }
+  }
+  .BackBlog{
+    background: #f36b37;
+    box-shadow: 0px 1px 1.6px 0px rgba(0, 0, 0, 0.08) !important;
+    border-radius: 5px !important;
+    // border: 0.4px solid #3CB872 !important;
+    color: #fff;
+    border: none !important;
+    &:hover{
+      border: none !important;
+      color: #fff !important;
+    }
+  }
+ 
+  .ErrorText{
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    color: red;
+  }
+}

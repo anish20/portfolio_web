@@ -1,0 +1,188 @@
+@import "../../styles/Home.module.scss";
+.LoginWrapper{
+    width: 100vw;
+    min-height: 100vh;
+    // background: linear-gradient(270deg, #F9FFFB 0%, #3CB872 100%), #D9D9D9;
+    // background: url('/images/loginbg.png') no-repeat ,linear-gradient(270deg, #F9FFFB 0%, #3CB872 100%), #D9D9D9;
+    // background-attachment: fixed;
+    // background-position: left; 
+    // background: #F5F7FF;
+    background: #dde1e7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include mobile{
+        width: 100vw !important;
+        height: 100vh !important;
+        // background: linear-gradient(0deg, #FAFDFF 0%, #E7F8F5 0.01%, #E0F5EA 19.37%, #3CB872 119.97%), #FFF;
+        align-items: center !important;
+        padding-top: 0px !important;
+        background: #F5F7FF;
+    }
+    @include tablet{
+        width: 100vw ;
+        height: 100vh;
+        background: #F5F7FF;
+        // background: linear-gradient(0deg, #FAFDFF 0%, #E7F8F5 0.01%, #E0F5EA 19.37%, #3CB872 119.97%), #FFF;
+    }
+    .LoginContainer{
+        width: 60%;
+        height: 100vh;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @include mobile{
+            display: flex !important;
+            flex-direction: column !important; 
+            width: 100% !important;
+            gap: 10px !important;
+            height: 100%;
+        }
+        @include tablet{
+            display: flex;
+            flex-direction: column; 
+            width: 100% ;
+            gap: 10px;
+        }
+        
+      
+        .LoginForm{
+            position: relative;
+            width: 50%;
+            min-height:  60vh;
+            border-radius: 15px;
+            // background: #FFF;
+            background: #dde1e7;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            // box-shadow: 1px 4px 1px  rgba(211, 211, 211, 0.62);
+            box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
+            // box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);
+            @include mobile{
+                width: 100% !important;
+                height:  30vh !important;
+                flex-direction: column !important;
+            }
+            @include tablet{
+                width: 100%;
+                height:  40vh;
+            }
+            h2{
+                color: var(--primary-color);
+                font-family: Montserrat;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 30px;
+                @include mobile{
+                     font-size: 20px !important;
+                }
+            }
+            p{
+                color: #6B6B6B;
+                font-family: Montserrat;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 30px;
+                @include mobile{
+                    font-size: 12px !important;
+                }
+            }
+            .FormContainer{
+                padding: 30px;
+                width: 80%;
+                @include mobile{
+                    width: 100% !important;
+                    padding: 20px !important;
+                }
+                @include tablet{
+                    width: 90%;
+                    padding: 20px;
+                }
+                .FormGroup{
+                    margin-bottom: 25px;
+                    .InputText{
+                        padding: 10px !important;
+                        border-radius: 5px !important;
+                        border: 0.5px solid var(--primary-color) !important;
+                        &:focus{
+                            border-radius: 5px !important;
+                            border: 0.5px solid var(--primary-color) !important;
+                        }
+                        // &:focus:required:invalid{border: 0.5px solid red !important;}
+                    }
+                    .InputPassword{
+                        padding: 10px;
+                        border-radius: 5px !important;
+                        border: 0.5px solid var(--primary-color) !important;
+                        &:focus{
+                            border-radius: 5px !important;
+                            border: 0.5px solid var(--primary-color) !important;
+                        }
+                        // &:focus:required:valid{border: 0.5px solid red !important;}
+                    }
+                   
+                    button{
+                       height: 43px;
+                       border-radius: 5px;
+                       background: var(--primary-color);
+                       color: #FFF;
+                        font-family: Montserrat;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 30px; 
+                        // text-transform: capitalize;
+                        border: none !important;
+                    }
+                    .RegisterText{
+                        display: none;
+                        color: #6B6B6B;
+                        font-family: Montserrat;
+                        font-size: 14px;
+                        font-style: normal;
+                        text-align: center;
+                        font-weight: 400;
+                        line-height: 30px; 
+                        a{
+                            color: #3CB872;
+                            font-family: Montserrat;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 30px;
+                            text-decoration: none;
+                        }
+                    }
+                }
+               
+            }
+            .InfoText{
+                display: none;
+                position: absolute;
+                bottom: 20px;
+                color: #6B6B6B;
+                font-family: Montserrat;
+                font-size: 12px;
+                text-align: center;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 30px; 
+                @include mobile{
+                    font-size: 8px;
+                    width: 60%;
+                    line-height: 20px; 
+
+                }
+                span{
+                    color: #3CB872;
+                }
+            }
+        }
+    }
+   
+}

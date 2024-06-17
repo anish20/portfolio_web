@@ -1,0 +1,334 @@
+.dashboardProductTableAction {
+  display: inline-flex;
+  gap: 8px;
+}
+.dashboardProductTableActionButtonEdit {
+  background-color: #ffffff;
+  text-align: center;
+  font: normal normal 600 12px/16px Open Sans;
+  letter-spacing: 0px;
+  color: #757575;
+  margin-left: 5px;
+}
+.dashboardProductTableActionButtonEdit:hover {
+  background-color: #5f717a;
+  text-align: left;
+  font: normal normal 600 12px/16px Open Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+  margin-left: 5px;
+}
+.dashboardProductTableActionButtonRemove {
+  background-color: #ffffff;
+  text-align: left;
+  font: normal normal 600 12px/16px Open Sans;
+  letter-spacing: 0px;
+  color: #757575;
+  margin-left: 5px;
+}
+.dashboardProductTableActionButtonRemove:hover {
+  background-color: #d03144;
+  text-align: left;
+  font: normal normal 600 12px/16px Open Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+  margin-left: 5px;
+}
+/*
+  .dashboardProductTableAction {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  */
+.publishButton {
+  border: 1px solid #28a745;
+  border-radius: 3px;
+  opacity: 1;
+  text-align: left;
+  font: normal normal 600 10px/16px Open Sans;
+  letter-spacing: 0.6px;
+  color: #28a745;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.hiddenButton {
+  border: 1px solid #46556c;
+  border-radius: 3px;
+  opacity: 1;
+  text-align: left;
+  font: normal normal 600 10px/16px Open Sans;
+  letter-spacing: 0.6px;
+  color: #46556c;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.pendingButton {
+  border: 1px solid#f6870e;
+  border-radius: 3px;
+  opacity: 1;
+  text-align: left;
+  font: normal normal 600 10px/16px Open Sans;
+  letter-spacing: 0.6px;
+  color: #f6870e;
+  text-transform: uppercase;
+  opacity: 1;
+  font-size: 10px;
+}
+.publishButton {
+  border: 1px solid #28a745;
+  border-radius: 3px;
+  opacity: 1;
+  text-align: left;
+  font: normal normal 600 10px/16px Open Sans;
+  letter-spacing: 0.6px;
+  color: #28a745;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.hiddenButton {
+  border: 1px solid #46556c;
+  border-radius: 3px;
+  opacity: 1;
+  text-align: left;
+  font: normal normal 600 10px/16px Open Sans;
+  letter-spacing: 0.6px;
+  color: #46556c;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.Image {
+  width: 63px;
+  height: 63px;
+}
+.reviewProductName {
+  text-align: left;
+  font: normal normal bold 12px/17px Muli;
+  letter-spacing: 0px;
+  color: #222222;
+  opacity: 1;
+  margin-top: 25px;
+  margin-left: 5px;
+}
+.reviewProductView {
+  text-align: left;
+  font: normal normal 600 12px/16px Open Sans;
+  letter-spacing: 0px;
+  color: #65a2a3;
+  opacity: 1;
+  margin-top: 25px;
+  margin-left: 15px;
+}
+.dashboardProductTableActionButtonView {
+  background-color: #ffffff;
+  text-align: left;
+  font: normal normal 600 12px/16px Open Sans;
+  letter-spacing: 0px;
+  color: #757575;
+  margin-left: 5px;
+}
+.dashboardProductTableActionButtonView:hover {
+  background-color: #313d54;
+  text-align: left;
+  font: normal normal 600 12px/16px Open Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+  margin-left: 5px;
+}
+.dashboardProductTableActionButtonHide {
+  background-color: #ffffff;
+  text-align: left;
+  font: normal normal 600 12px/16px Open Sans;
+  letter-spacing: 0px;
+  color: #757575;
+  margin-left: 5px;
+}
+
+.dashboardProductTableActionButtonHide:hover {
+  background-color: #f6870e;
+  text-align: left;
+  font: normal normal 600 12px/16px Open Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+  margin-left: 5px;
+}
+.dashboardProductTableActionButtonDelete {
+  background-color: #ffffff;
+  text-align: left;
+  font: normal normal 600 12px/16px Open Sans;
+  letter-spacing: 0px;
+  color: #757575;
+  margin-left: 5px;
+}
+.dashboardProductTableActionButtonDelete:hover {
+  background-color: #f61d0e;
+  text-align: left;
+  font: normal normal 600 12px/16px Open Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+  margin-left: 5px;
+}
+.dashboardProductTableActionButtonPublish {
+  background-color: #ffffff;
+  text-align: left;
+  font: normal normal 600 12px/16px Open Sans;
+  letter-spacing: 0px;
+  color: #757575;
+  margin-left: 5px;
+}
+.dashboardProductTableActionButtonPublish:hover {
+  background-color: #28a745;
+  text-align: left;
+  font: normal normal 600 12px/16px Open Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+  margin-left: 5px;
+}
+.dashboardProductTableAction {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.popupBoxIcon {
+  font-size: 25px;
+  color: #43b963;
+}
+.hidePopupBoxIcon {
+  font-size: 25px;
+  color: #f6870e;
+}
+.deletePopupBoxIcon {
+  font-size: 25px;
+  color: #f60e0e;
+}
+.textArea {
+  text-align: center;
+}
+.text1 {
+  margin-top: 25px;
+  color: #43b963;
+  font-size: 18px;
+}
+.text2 {
+  font-size: 16px;
+}
+.hideText1 {
+  margin-top: 25px;
+  color: #f6870e;
+  font-size: 18px;
+}
+.deleteText1 {
+  margin-top: 25px;
+  color: #f60e0e;
+  font-size: 18px;
+}
+.yesButton {
+  background: #000000 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  border-color: #000000;
+  opacity: 1;
+  width: 263px;
+  height: 56px;
+  text-align: center;
+  font: normal normal 800 16px/20px Muli;
+  letter-spacing: 1.28px;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.noButton {
+  border-radius: 2px;
+  border-color: #000000;
+  opacity: 100%;
+  width: 263px;
+  height: 56px;
+  margin-top: 20px;
+  text-align: center;
+  font: normal normal 800 16px/20px Muli;
+  letter-spacing: 1.28px;
+  color: #333333;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.topCardsInReview {
+  text-align: left;
+}
+.topHeaderText {
+  margin-top: -25px;
+  font-size: 17px;
+  text-align: left;
+  font: normal normal 600 12px/16px Open Sans;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+}
+.date {
+  text-align: left;
+  font: normal normal normal 16px/26px Open Sans;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+}
+.name {
+  font: normal normal normal 16px/26px Open Sans;
+  letter-spacing: 0px;
+  color: #65a2a3;
+  opacity: 1;
+}
+.email {
+  text-align: left;
+  font: normal normal normal 16px/26px Open Sans;
+  letter-spacing: 0px;
+  color: #65a2a3;
+  opacity: 1;
+}
+.productViewSection {
+  font: normal normal normal 16px/26px Open Sans;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+}
+.productViewSectionText {
+  font: normal normal normal 16px/26px Open Sans;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+  // text-align: left;
+  // font: normal normal 600 12px/16px Open Sans;
+  // letter-spacing: 0px;
+  // color: #333333;
+  // opacity: 1;
+  // margin-left: 20px;
+  // margin-top: 0px;
+}
+.reviewTopic {
+  font: normal normal normal 16px/26px Open Sans;
+  letter-spacing: 0px;
+  color: #65a2a3;
+  opacity: 1;
+}
+.rate {
+  margin-bottom: 40px;
+}
+.message {
+  text-align: left;
+  font: normal normal normal 16px/26px Open Sans;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+}
+.buttonIcon {
+  opacity: 1;
+  margin-top: -5px;
+}
+.publishButtonInPopup {
+  background: #28a745 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  margin-right: 10px;
+  color: white;
+}
+.hideButtonInPopup {
+  background: #f6870e 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  color: white;
+}
