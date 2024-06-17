@@ -14,7 +14,7 @@ const AboutMe = () => {
                         <div className="about-content">
                             <div className="section-header text-left">
                                 <p>Learn About Me</p>
-                                <h2>10 Years Experience</h2>
+                                <h2>4 Years Experience</h2>
                             </div>
                             <div className="about-text">
                                 <p>
@@ -23,16 +23,16 @@ const AboutMe = () => {
                             </div>
                             <div className="skills">
                                 <div className="skill-name">
-                                    <p>Web Design</p><p>85%</p>
+                                    <p>Web Design</p><p>80%</p>
                                 </div>
                                 <div className="progress">
-                                    <div className="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div className="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                                 <div className="skill-name">
-                                    <p>Web Development</p><p>95%</p>
+                                    <p>Web Development</p><p>65%</p>
                                 </div>
                                 <div className="progress">
-                                    <div className="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div className="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                                 <div className="skill-name">
                                     <p>Apps Development</p><p>60%</p>
