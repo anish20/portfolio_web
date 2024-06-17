@@ -6,11 +6,11 @@ const Footer = () => {
     <div className="container-fluid">
         <div className="container">
             <div className="footer-info">
-                <h2>Kate Winslet</h2>
-                <h3>123 Street, New York, USA</h3>
+                <h2>AnishWebsoft</h2>
+                <h3>H-13, Noida Sector 22, Uttar Pradesh</h3>
                 <div className="footer-menu">
-                    <p>+012 345 67890</p>
-                    <p>info@example.com</p>
+                    <p>+91 8468039620</p>
+                    <p>info@anishwebsoft.in</p>
                 </div>
                 <div className="footer-social">
                     <a href=""><i className="fab fa-twitter"></i></a>
@@ -22,10 +22,8 @@ const Footer = () => {
             </div>
         </div>
         <div className="container copyright">
-            <p>&copy; <a href="#">Your Site Name</a>, All Right Reserved | 
-            
-    
-            Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
+            <p>&copy; <a href="#">AnishWebsoft</a>, All Right Reserved 
+            </p>
         </div>
     </div>
 </div>
