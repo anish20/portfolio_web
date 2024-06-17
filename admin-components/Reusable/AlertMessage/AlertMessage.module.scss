@@ -1,0 +1,64 @@
+.PopupWrapper{
+    padding: 0 !important;
+    width: 100%;
+    .PopupContainer{
+        width: 100%;
+        padding: 30px !important;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 15px !important;
+        .IconBox{
+            width: 60px;
+            height: 60px;
+            border-radius: 100%;
+            background: rgba(255, 0, 0, 0.153) !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            svg{
+                color: red !important;
+                font-size: 36px !important;
+            }
+        }
+        p{
+            color: red;
+            font-family: Montserrat;
+            font-weight: 400;
+            font-size: 15px;
+            text-align: center;
+        }
+    }
+    .BottomButtons{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        button{
+            width: 100%;
+            border:none !important;
+            // background: #f36b37;
+            color: #fff;
+            text-align: center;
+            font-family: Montserrat;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 600;
+            border-radius: 0 !important;
+            box-shadow: none !important;
+            &:hover{
+                color: #fff !important;
+            }
+            &:first-child{
+                background: #3cb872;
+            }
+            &:last-child{
+                background: #f36b37;
+            }
+            &:focus{
+                box-shadow: none !important;
+            }
+        }
+    }
+}
